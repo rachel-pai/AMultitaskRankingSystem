@@ -1,10 +1,4 @@
-# (Recommending What Video to Watch Next: A Multitask Ranking System)[https://dl.acm.org/doi/10.1145/3298689.3346997]
-
-![MMoE](assets/markdown-img-paste-20200618122732707.png)
-
-![MMOE in rec](assets/markdown-img-paste-20200618122911174.png)
-
-![model architecture](assets/markdown-img-paste-20200618122949112.png)
+# [Recommending What Video to Watch Next: A Multitask Ranking System](https://dl.acm.org/doi/10.1145/3298689.3346997)
 
 ## data in paper:
 - video: video meta-data and video content signals as its representation
@@ -26,5 +20,8 @@
 3. implicit bias:  selection bias(ranking order decided by current system) => shallow tower => a scalar serving as a bias term to the final prediction of the main model
 
 
-## data used in this repo from (here)[https://github.com/youtube-dataset/conspiracy]
+## data used in this repo from [here](https://github.com/youtube-dataset/conspiracy)
 ** Note **: only for testing model structure, training data in ranking.py is manipulated and not correct.
+
+
+![model architecture](assets/markdown-img-paste-20200618122949112.png)
